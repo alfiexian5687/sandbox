@@ -4,4 +4,4 @@ name= input("enter name")
 while len(name)<=1:
     name=input("Enterthe name")
 
-print(name::2)
+print(name[::2])
